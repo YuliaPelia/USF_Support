@@ -1,3 +1,7 @@
+// Ваш код
+
+import "animate.css/animate.css";
+
 const Hero = () => {
   return (
     <section className="hero">
@@ -10,10 +14,12 @@ const Hero = () => {
             волонтерів.. Цiлi фонду назбирати максимальну суму на допомогу ЗСУ
             за мінімальний строк.
           </p>
-          <button className="btn hero__btn">Підтримати</button>
+          <button className="btn hero__btn" data-aos="fade-up">
+            Підтримати
+          </button>
           <div className="hero__start">
             <span className="hero__text">Get started</span>
-            <i class="fa-solid fa-chevron-down hero__icon"></i>
+            <i className="fa-solid fa-chevron-down fa-beat hero__icon"></i>
           </div>
         </div>
       </div>

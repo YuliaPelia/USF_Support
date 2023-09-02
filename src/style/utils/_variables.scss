@@ -31,3 +31,9 @@ body::-webkit-scrollbar-thumb {
 .btn {
   @include btn();
 }
+.title {
+  @include title($second-color, 64px);
+}
+.descr {
+  @include descr(24px, $text-color);
+}
