@@ -1,0 +1,47 @@
+.hero {
+  background: url(../../resources/img/hero_bg.png) center/cover no-repeat;
+
+  height: 800px;
+  &__title {
+    @include title($text-color, 128px);
+  }
+  .overlay {
+    background: rgba(155, 155, 155, 0.27);
+    box-shadow: -1px 1px 8px -3px rgba(0, 0, 0, 0.25) inset;
+    backdrop-filter: blur(4.5px);
+    height: 100%;
+    width: 100%;
+    padding: 123px 0 21px 0;
+  }
+  &__subtitle {
+    @include title($text-color, 64px);
+    margin-top: 6px;
+  }
+  &__descr {
+    @include descr(24px, $text-color);
+    max-width: 450px;
+    margin-top: 30px;
+  }
+  &__btn {
+    margin-top: 48px;
+  }
+  &__start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    margin-top: 84px;
+  }
+  &__text {
+    color: $text-color;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+  }
+  &__icon {
+    color: $text-color;
+    font-size: 10px;
+    cursor: pointer;
+  }
+}

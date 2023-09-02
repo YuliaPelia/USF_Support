@@ -1,0 +1,32 @@
+@mixin title($color, $size) {
+  color: $color;
+  font-size: $size;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+@mixin descr($size, $color) {
+  color: $color;
+  text-align: justify;
+  font-size: $size;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+@mixin btn {
+  border-radius: 10px;
+  background: $second-color;
+  color: $main-bg-color;
+  padding: 15px 20px;
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  line-height: normal;
+}
