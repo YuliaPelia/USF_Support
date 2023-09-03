@@ -1,6 +1,6 @@
 import React from "react";
 
-import { servicesImg } from "../costants/Costants";
+import { servicesImg } from "./Costants";
 
 const About = () => {
   const ImgWrapper = ({ img, name }) => {

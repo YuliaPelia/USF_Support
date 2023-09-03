@@ -1,4 +1,4 @@
-import Military from "../../resources/img/military.png";
+import Military from "../resources/img/military.png";
 const Info = () => {
   return (
     <section className="info">

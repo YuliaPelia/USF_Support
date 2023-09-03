@@ -1,8 +1,7 @@
-import React from "react";
-import Olecksiy from "../../resources/img/olecksiyy.png";
-import Jesica from "../../resources/img/jesica.png";
-import Teodora from "../../resources/img/teaderaa.png";
-import Taras from "../../resources/img/taras.png";
+import Olecksiy from "../resources/img/olecksiyy.png";
+import Jesica from "../resources/img/jesica.png";
+import Teodora from "../resources/img/teaderaa.png";
+import Taras from "../resources/img/taras.png";
 
 export const servicesImg = [
   {
