@@ -1,5 +1,18 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
+import React from "react";
+
 const AppHeader = () => {
+  const scrollToSection = (anchorId) => {
+    const targetElement = document.getElementById(anchorId);
+
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop - 72, // Наприклад, відніміть висоту хедера
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <header className="header">
       <div className="container">
@@ -7,35 +20,35 @@ const AppHeader = () => {
         <nav className="header__navigation">
           <ul className="header__menu">
             <li className="header__item">
-              <NavLink to="#" className="header__link">
+              <button href="/" className="header__link">
                 Ігри
-              </NavLink>
+              </button>
             </li>
             <li className="header__item">
-              <NavLink to="#" className="header__link">
+              <button href="/" className="header__link">
                 Новини
-              </NavLink>
+              </button>
             </li>
             <li className="header__item">
-              <NavLink to="#" className="header__link">
+              <button
+                className="header__link"
+                onClick={() => scrollToSection("about")}
+              >
                 Про нас
-              </NavLink>
+              </button>
             </li>
             <li className="header__item">
-              <NavLink to="#" className="header__link">
-                Допомога армії
-              </NavLink>
+              <button className="header__link">Допомога армії</button>
             </li>
             <li className="header__item">
-              <NavLink to="#" className="header__link">
+              <button href="/" className="header__link">
                 Підтримати
-              </NavLink>
+              </button>
             </li>
             <li className="header__item">
-              <NavLink to="#" className="header__link">
-                {" "}
+              <button href="/" className="header__link">
                 Гаряча лінія
-              </NavLink>
+              </button>
             </li>
           </ul>
         </nav>

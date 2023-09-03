@@ -1,4 +1,7 @@
+import React from "react";
+
 import { servicesImg } from "../costants/Costants";
+
 const About = () => {
   const ImgWrapper = ({ img, name }) => {
     return (
@@ -14,7 +17,7 @@ const About = () => {
     );
   };
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="container">
         <h2 className="title about__title" data-aos="zoom-out-down">
           Про нас <br /> Ukraine Support Fondation

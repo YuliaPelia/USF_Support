@@ -1,10 +1,13 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 import AppHeader from "../appHeader/AppHeader";
 import Hero from "../hero/Hero";
 import About from "../about/About";
+import Town from "../town/Town";
+import Info from "../info/Info";
 
 const App = () => {
   useEffect(() => {
@@ -12,13 +15,15 @@ const App = () => {
     AOS.refresh();
   }, []);
   return (
-    <Router>
+    <>
       <AppHeader />
       <main>
         <Hero />
         <About />
+        <Town />
+        <Info />
       </main>
-    </Router>
+    </>
   );
 };
 export default App;
