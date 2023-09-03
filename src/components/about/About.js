@@ -2,7 +2,12 @@ import { servicesImg } from "../costants/Costants";
 const About = () => {
   const ImgWrapper = ({ img, name }) => {
     return (
-      <li className="about__item">
+      <li
+        className="about__item"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         <img className="about__picture" src={img} alt={name} />
         <span className="about__name descr">{name}</span>
       </li>
@@ -11,7 +16,7 @@ const About = () => {
   return (
     <section className="about">
       <div className="container">
-        <h2 className="title about__title">
+        <h2 className="title about__title" data-aos="zoom-out-down">
           Про нас <br /> Ukraine Support Fondation
         </h2>
         <p className="about__descr descr">

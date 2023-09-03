@@ -30,6 +30,12 @@ body::-webkit-scrollbar-thumb {
 }
 .btn {
   @include btn();
+
+  &:hover {
+    color: $text-color;
+    background-color: $main-bg-color;
+    box-shadow: 0 0 20px 2px $second-color;
+  }
 }
 .title {
   @include title($second-color, 64px);
