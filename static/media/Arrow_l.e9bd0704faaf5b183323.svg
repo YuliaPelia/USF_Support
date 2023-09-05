@@ -1,0 +1,9 @@
+<svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Arrow_l">
+<path id="Ellipse 1" d="M29.4839 15.0627C29.4839 22.6049 23.1409 28.7785 15.2419 28.7785C7.34293 28.7785 1 22.6049 1 15.0627C1 7.52056 7.34293 1.34698 15.2419 1.34698C23.1409 1.34698 29.4839 7.52056 29.4839 15.0627Z" stroke="#FFD76E" stroke-width="2"/>
+<g id="Arrow">
+<line id="Line 1" x1="1" y1="-1" x2="17.2034" y2="-1" transform="matrix(0.823173 -0.56779 0.714339 0.6998 6.35425 16.569)" stroke="#FFD76E" stroke-width="2" stroke-linecap="round"/>
+<line id="Line 2" x1="1" y1="-1" x2="17.2034" y2="-1" transform="matrix(0.823173 0.56779 -0.714339 0.6998 5.08057 15.5186)" stroke="#FFD76E" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</svg>

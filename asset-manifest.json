@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/USF_Support/static/css/main.3f94d0e9.css",
-    "main.js": "/USF_Support/static/js/main.1c173803.js",
+    "main.css": "/USF_Support/static/css/main.7803be74.css",
+    "main.js": "/USF_Support/static/js/main.fa8f7012.js",
     "static/media/hero_bg.png": "/USF_Support/static/media/hero_bg.9c7855436440578f23c3.png",
     "static/media/bg_flag.png": "/USF_Support/static/media/bg_flag.f6fdc6538ac5a160cf66.png",
     "static/media/humanitarian_help.png": "/USF_Support/static/media/humanitarian_help.bed03f60144a56cc49d9.png",
     "static/media/military_help.png": "/USF_Support/static/media/military_help.d33c073bb3050b390204.png",
+    "static/media/wheat.png": "/USF_Support/static/media/wheat.684d4b6dac22e18db4e2.png",
     "static/media/military.png": "/USF_Support/static/media/military.ed1fc39b06417f121c84.png",
     "static/media/jesica.png": "/USF_Support/static/media/jesica.404efcdd87af3ae643bb.png",
     "static/media/teaderaa.png": "/USF_Support/static/media/teaderaa.b0957045fe15c2c91c71.png",
     "static/media/taras.png": "/USF_Support/static/media/taras.774cd7efd17316037a6b.png",
     "static/media/olecksiyy.png": "/USF_Support/static/media/olecksiyy.2652ceac4be4a296c557.png",
+    "static/media/Arrow_l.svg": "/USF_Support/static/media/Arrow_l.e9bd0704faaf5b183323.svg",
     "index.html": "/USF_Support/index.html",
-    "main.3f94d0e9.css.map": "/USF_Support/static/css/main.3f94d0e9.css.map",
-    "main.1c173803.js.map": "/USF_Support/static/js/main.1c173803.js.map"
+    "main.7803be74.css.map": "/USF_Support/static/css/main.7803be74.css.map",
+    "main.fa8f7012.js.map": "/USF_Support/static/js/main.fa8f7012.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f94d0e9.css",
-    "static/js/main.1c173803.js"
+    "static/css/main.7803be74.css",
+    "static/js/main.fa8f7012.js"
   ]
 }
