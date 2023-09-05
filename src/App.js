@@ -8,6 +8,8 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Town from "./components/Town";
 import Info from "./components/Info";
+import Help from "./components/Help";
+import Game from "./components/Game";
 
 const App = () => {
   useEffect(() => {
@@ -29,10 +31,13 @@ const App = () => {
           title="Київ-МІСТО ГЕРОЙ"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
+        <Help />
         <Town
           title="Херсон-МІСТО ГЕРОЙ"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />{" "}
+        />
+
+        <Game />
         <Town
           title="Маріуполь-МІСТО ГЕРОЙ"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."

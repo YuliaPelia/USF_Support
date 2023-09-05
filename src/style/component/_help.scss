@@ -1,0 +1,32 @@
+.help {
+  min-height: 737px;
+  padding: 40px 0 47px 0;
+  &__title {
+    text-align: center;
+  }
+  &__menu {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__box {
+    position: relative;
+  }
+  &__caption {
+    color: $thirt-color;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    padding: 88px 0 88px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+  }
+}

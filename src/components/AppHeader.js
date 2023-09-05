@@ -20,14 +20,10 @@ const AppHeader = () => {
         <nav className="header__navigation">
           <ul className="header__menu">
             <li className="header__item">
-              <button href="/" className="header__link">
-                Ігри
-              </button>
+              <button className="header__link">Ігри</button>
             </li>
             <li className="header__item">
-              <button href="/" className="header__link">
-                Новини
-              </button>
+              <button className="header__link">Новини</button>
             </li>
             <li className="header__item">
               <button
@@ -41,14 +37,15 @@ const AppHeader = () => {
               <button className="header__link">Допомога армії</button>
             </li>
             <li className="header__item">
-              <button href="/" className="header__link">
+              <button
+                className="header__link"
+                onClick={() => scrollToSection("help")}
+              >
                 Підтримати
               </button>
             </li>
             <li className="header__item">
-              <button href="/" className="header__link">
-                Гаряча лінія
-              </button>
+              <button className="header__link">Гаряча лінія</button>
             </li>
           </ul>
         </nav>

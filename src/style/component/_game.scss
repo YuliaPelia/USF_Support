@@ -1,0 +1,80 @@
+.game {
+  min-height: 1362px;
+  padding: 43px 0 180px 0;
+  background: url(../../resources/img/wheat.png) center/cover no-repeat;
+  &__title {
+    text-align: center;
+  }
+  &__slider {
+    margin-top: 30px;
+    display: flex;
+    // gap: 15px;
+    align-items: center;
+    &--box {
+      border: 5px solid #8cbaff;
+      background: #fff;
+      width: 315px;
+      height: 295px;
+    }
+    &--link {
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+    &--img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &__slogan {
+    color: $text-color;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 22px;
+  }
+}
+.slick-list {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.slick-track {
+  display: flex;
+  // justify-content: space-between;
+  // gap: 73px;
+}
+.slick-prev,
+.slick-next {
+  color: #0000;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  position: relative;
+}
+.slick-prev::before {
+  content: "";
+  background: url(../../resources/icons/Arrow_l.svg) center/cover no-repeat;
+  display: block;
+  width: 33px;
+  height: 34px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slick-next::before {
+  content: "";
+  background: url(../../resources/icons/Arrow_l.svg) center/cover no-repeat;
+  display: block;
+  width: 33px;
+  height: 34px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+}
