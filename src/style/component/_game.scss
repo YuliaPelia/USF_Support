@@ -1,10 +1,16 @@
 .game {
-  min-height: 1362px;
-  padding: 43px 0 180px 0;
   background: url(../../resources/img/wheat.png) center/cover no-repeat;
   &__title {
     text-align: center;
   }
+  .container {
+    min-height: 1362px;
+    padding: 43px 0 180px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   &__slider {
     margin-top: 30px;
     display: flex;
@@ -60,8 +66,8 @@
   content: "";
   background: url(../../resources/icons/Arrow_l.svg) center/cover no-repeat;
   display: block;
-  width: 33px;
-  height: 34px;
+  width: 30px;
+  height: 29px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -71,8 +77,8 @@
   content: "";
   background: url(../../resources/icons/Arrow_l.svg) center/cover no-repeat;
   display: block;
-  width: 33px;
-  height: 34px;
+  width: 30px;
+  height: 29px;
   position: absolute;
   top: 50%;
   left: 50%;
