@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/USF_Support/static/css/main.9f5e7c2f.css",
-    "main.js": "/USF_Support/static/js/main.3825b0bf.js",
+    "main.css": "/USF_Support/static/css/main.c5027f5f.css",
+    "main.js": "/USF_Support/static/js/main.a8f6f48e.js",
     "static/media/hero_bg.png": "/USF_Support/static/media/hero_bg.9c7855436440578f23c3.png",
     "static/media/bg_flag.png": "/USF_Support/static/media/bg_flag.f6fdc6538ac5a160cf66.png",
     "static/media/humanitarian_help.png": "/USF_Support/static/media/humanitarian_help.bed03f60144a56cc49d9.png",
     "static/media/military_help.png": "/USF_Support/static/media/military_help.d33c073bb3050b390204.png",
     "static/media/wheat.png": "/USF_Support/static/media/wheat.684d4b6dac22e18db4e2.png",
     "static/media/military.png": "/USF_Support/static/media/military.ed1fc39b06417f121c84.png",
+    "static/media/military_with_flag.png": "/USF_Support/static/media/military_with_flag.c970c0f2e8268dfcb3ac.png",
+    "static/media/help_us.png": "/USF_Support/static/media/help_us.95fe7f99535919d1ccfd.png",
     "static/media/jesica.png": "/USF_Support/static/media/jesica.404efcdd87af3ae643bb.png",
+    "static/media/helicopter.png": "/USF_Support/static/media/helicopter.dc62f4a6a11ca4a91850.png",
     "static/media/teaderaa.png": "/USF_Support/static/media/teaderaa.b0957045fe15c2c91c71.png",
+    "static/media/plane.png": "/USF_Support/static/media/plane.a974de2d2d4f078041ef.png",
     "static/media/taras.png": "/USF_Support/static/media/taras.774cd7efd17316037a6b.png",
     "static/media/olecksiyy.png": "/USF_Support/static/media/olecksiyy.2652ceac4be4a296c557.png",
     "static/media/Arrow_l.svg": "/USF_Support/static/media/Arrow_l.e9bd0704faaf5b183323.svg",
     "index.html": "/USF_Support/index.html",
-    "main.9f5e7c2f.css.map": "/USF_Support/static/css/main.9f5e7c2f.css.map",
-    "main.3825b0bf.js.map": "/USF_Support/static/js/main.3825b0bf.js.map"
+    "main.c5027f5f.css.map": "/USF_Support/static/css/main.c5027f5f.css.map",
+    "main.a8f6f48e.js.map": "/USF_Support/static/js/main.a8f6f48e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f5e7c2f.css",
-    "static/js/main.3825b0bf.js"
+    "static/css/main.c5027f5f.css",
+    "static/js/main.a8f6f48e.js"
   ]
 }
