@@ -11,6 +11,8 @@ import Info from "./components/Info";
 import Help from "./components/Help";
 import Game from "./components/Game";
 import Achievement from "./components/Achievement";
+import Fond from "./components/Fond";
+import Footer from "./components/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -29,21 +31,26 @@ const App = () => {
         />
         <Info />
         <Town
-          title="Київ-МІСТО ГЕРОЙ"
+          title="Харків-МІСТО ГЕРОЙ"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <Help />
         <Town
+          title="Київ-МІСТО ГЕРОЙ"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+        <Game />{" "}
+        <Town
           title="Херсон-МІСТО ГЕРОЙ"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
-
-        <Game />
+        <Achievement />{" "}
         <Town
           title="Маріуполь-МІСТО ГЕРОЙ"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
-        <Achievement />
+        <Fond />
+        <Footer />
       </main>
     </>
   );

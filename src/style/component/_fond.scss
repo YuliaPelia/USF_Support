@@ -1,0 +1,36 @@
+.fond {
+  padding: 50px 0 160px 0;
+  &__title {
+    text-align: center;
+  }
+  &__details {
+    border-radius: 8px;
+    border: 4px solid #ffd76e;
+    background: #fff;
+    padding: 36px 0 13px 15px;
+    max-width: 752px;
+    margin: 100px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    &--data {
+      color: $second-color;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+    &--answer {
+      color: $thirt-color;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    &--box {
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+    }
+  }
+}

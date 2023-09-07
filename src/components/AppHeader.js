@@ -16,7 +16,6 @@ const AppHeader = () => {
   return (
     <header className="header">
       <div className="container">
-        {" "}
         <nav className="header__navigation">
           <ul className="header__menu">
             <li className="header__item">
@@ -44,7 +43,12 @@ const AppHeader = () => {
               </button>
             </li>
             <li className="header__item">
-              <button className="header__link">Допомога армії</button>
+              <button
+                className="header__link"
+                onClick={() => scrollToSection("fond")}
+              >
+                Допомога армії
+              </button>
             </li>
             <li className="header__item">
               <button
