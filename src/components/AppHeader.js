@@ -20,10 +20,20 @@ const AppHeader = () => {
         <nav className="header__navigation">
           <ul className="header__menu">
             <li className="header__item">
-              <button className="header__link">Ігри</button>
+              <button
+                className="header__link"
+                onClick={() => scrollToSection("game")}
+              >
+                Ігри
+              </button>
             </li>
             <li className="header__item">
-              <button className="header__link">Новини</button>
+              <button
+                className="header__link"
+                onClick={() => scrollToSection("achievement")}
+              >
+                Новини
+              </button>
             </li>
             <li className="header__item">
               <button

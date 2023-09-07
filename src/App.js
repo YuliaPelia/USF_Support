@@ -10,6 +10,7 @@ import Town from "./components/Town";
 import Info from "./components/Info";
 import Help from "./components/Help";
 import Game from "./components/Game";
+import Achievement from "./components/Achievement";
 
 const App = () => {
   useEffect(() => {
@@ -42,6 +43,7 @@ const App = () => {
           title="Маріуполь-МІСТО ГЕРОЙ"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
+        <Achievement />
       </main>
     </>
   );

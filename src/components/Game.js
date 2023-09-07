@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 
 const Game = () => {
   return (
-    <section className="game">
+    <section className="game" id="game">
       <div className="container">
         <div className="game__wrapper">
           <h2 className="title game__title">Ігри</h2>
